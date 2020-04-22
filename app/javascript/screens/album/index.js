@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import NavbarFooter from '../../components/common/navbar_footer'
 
 const AlbumScreen = () => {
   return(
@@ -6,6 +7,7 @@ const AlbumScreen = () => {
       <div>
         Album screen
       </div>
+      <NavbarFooter />
     </Fragment>
   )
 }
